@@ -1,2 +1,7 @@
 # MovieMingle
-Inside the .env file, there are variables REACT_APP_APIKEY and REACT_APP_TOKEN, which need to be filled by making a request to The Movie Database (TMDb).
+You need to create a .env file containing the variables 
+REACT_APP_BASEURL : The base URL for the API that will be used by the application 
+REACT_APP_BASEIMGURL : The base URL for fetching images
+REACT_APP_APIKEY : The API key used to authenticate API requests
+REACT_APP_TOKEN : The authentication token used to ensure that the API requests are sent from a legitimate source
+To get the API Key and Token, you should make a request to The Movie Database (TMDb)
