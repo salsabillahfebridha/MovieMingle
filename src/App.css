@@ -1,0 +1,48 @@
+* {
+  background-color: #fafafa
+}
+
+.App {
+  text-align: center;
+}
+
+.container h1 {
+  padding-top: 80px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.container h4 {
+  padding-bottom: 30px;
+  font-family:'Courier New';
+}
+
+.TopRatedList {
+  display: flex;
+  justify-content: center;
+}
+
+.CardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -15px;
+}
+
+.section {
+  font-size: 15px;
+}
+
+.nav-link-spacing {
+  margin-right: 15px;
+  transition: color 0.3s ease, background-color 0.3 ease;
+}
+
+.nav-link-spacing.hovered {
+  color: #fff;
+  background-color: #ffefef;
+}
+
+.bg-body-tertiary {
+  background-color: #FDF7E4;
+}
